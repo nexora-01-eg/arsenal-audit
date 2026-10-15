@@ -1,0 +1,205 @@
+{
+ "arsenal": "F:\\Arsenal",
+ "scanned_at": "2026-09-20T00:04:47Z",
+ "total_files": 124630,
+ "total_dirs": 26668,
+ "total_bytes": 59072392589,
+ "unreadable": 0,
+ "by_topdir": {
+  "catalog.json": {
+   "files": 1,
+   "bytes": 11293829
+  },
+  "README.md": {
+   "files": 1,
+   "bytes": 3868
+  },
+  "01_Fonts": {
+   "files": 1199,
+   "bytes": 73807312
+  },
+  "02_Icons": {
+   "files": 30710,
+   "bytes": 162195780
+  },
+  "03-خطوط": {
+   "files": 278,
+   "bytes": 51965237
+  },
+  "03_SFX": {
+   "files": 3,
+   "bytes": 4341935406
+  },
+  "04-صوتيات": {
+   "files": 6,
+   "bytes": 676492
+  },
+  "04_Music": {
+   "files": 1442,
+   "bytes": 11138344170
+  },
+  "05-أخرى": {
+   "files": 8,
+   "bytes": 564464
+  },
+  "05_VideoAssets": {
+   "files": 34,
+   "bytes": 9324651134
+  },
+  "06_Templates": {
+   "files": 36503,
+   "bytes": 1535752379
+  },
+  "07_AI_Models": {
+   "files": 5,
+   "bytes": 1564240276
+  },
+  "08_3D_Assets": {
+   "files": 858,
+   "bytes": 398183019
+  },
+  "09_Docs": {
+   "files": 16147,
+   "bytes": 173176105
+  },
+  "1 - خطوط": {
+   "files": 133,
+   "bytes": 536415
+  },
+  "10_MotionDesign": {
+   "files": 14097,
+   "bytes": 4573739302
+  },
+  "2 - خلفيات ونسيج": {
+   "files": 2,
+   "bytes": 2616
+  },
+  "3 - مواد ثلاثية الأبعاد": {
+   "files": 6,
+   "bytes": 3735697
+  },
+  "arsenal-dashboard": {
+   "files": 5,
+   "bytes": 9543
+  },
+  "Fonts-Organized": {
+   "files": 52,
+   "bytes": 4870632
+  },
+  "Google Fonts": {
+   "files": 21,
+   "bytes": 83314
+  },
+  "lottie": {
+   "files": 17,
+   "bytes": 4181745
+  },
+  "MH - محتوى بصري": {
+   "files": 2219,
+   "bytes": 5621858759
+  },
+  "NK4 - png": {
+   "files": 8,
+   "bytes": 661106
+  },
+  "svg": {
+   "files": 63,
+   "bytes": 38350
+  },
+  "_logs": {
+   "files": 5,
+   "bytes": 217681
+  },
+  "_projects": {
+   "files": 16459,
+   "bytes": 1010521798
+  },
+  "_scripts": {
+   "files": 5,
+   "bytes": 407674
+  },
+  "_tmp": {
+   "files": 17,
+   "bytes": 1343377
+  },
+  "المتكرر 00": {
+   "files": 4228,
+   "bytes": 18921591695
+  },
+  "خامات ومؤثرات 3D": {
+   "files": 8,
+   "bytes": 3738313
+  },
+  "مؤثرات صوتية": {
+   "files": 47,
+   "bytes": 5533334
+  },
+  "موسيقى": {
+   "files": 43,
+   "bytes": 142531767
+  }
+ },
+ "by_ext_top60": {
+  ".svg": 28768,
+  ".md": 18085,
+  ".tsx": 11657,
+  ".js": 10599,
+  ".json": 9307,
+  ".ts": 7752,
+  ".png": 5864,
+  ".jpg": 5091,
+  ".map": 4269,
+  ".ttf": 3243,
+  ".html": 3089,
+  "": 1891,
+  ".mp3": 1572,
+  ".zip": 1495,
+  ".mdx": 1272,
+  ".css": 1205,
+  ".sample": 717,
+  ".txt": 659,
+  ".astro": 539,
+  ".mp4": 434,
+  ".scss": 391,
+  ".woff": 358,
+  ".mjs": 343,
+  ".otf": 330,
+  ".cube": 329,
+  ".swift": 322,
+  ".ico": 267,
+  ".yaml": 237,
+  ".gltf": 237,
+  ".java": 235,
+  ".yml": 227,
+  ".woff2": 220,
+  ".glb": 220,
+  ".bin": 220,
+  ".xml": 216,
+  ".eot": 206,
+  ".cow": 190,
+  ".cjs": 170,
+  ".gif": 157,
+  ".kt": 155,
+  ".svelte": 125,
+  ".mts": 117,
+  ".example": 117,
+  ".vue": 106,
+  ".py": 90,
+  ".pack": 65,
+  ".gz": 65,
+  ".ktx2": 64,
+  ".idx": 57,
+  ".rev": 57,
+  ".toml": 52,
+  ".webp": 49,
+  ".snap": 48,
+  ".jsx": 48,
+  ".lottie": 48,
+  ".jpeg": 47,
+  ".mtlx": 46,
+  ".pb": 36,
+  ".aep": 36,
+  ".lock": 35
+ },
+ "n_extensions": 206
+}

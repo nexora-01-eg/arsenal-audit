@@ -1,0 +1,79 @@
+[
+ {
+  "capability": "Token search API + Arabic gallery UI",
+  "where": "_projects/arsenal-x (26 api routes, lib/arsenalSearch.ts, lib/indexer.ts)",
+  "does": "filename/tag token search (AND/OR, scored, grouped), X-Code stable ids, gaps analysis, zip content listing",
+  "reuse": "YES - fix ROOT D:->F:, keep API shell + UI, add semantic layer + previews + hashes",
+  "missing": "vision semantics, media previews, content hashes, license tracking, correct ROOT"
+ },
+ {
+  "capability": "Simple catalog search dashboard",
+  "where": "arsenal-dashboard (server.js + app.js + catalog.json)",
+  "does": "static file server + Arabic filename/extension search over stale 2026-09-01 catalog",
+  "reuse": "PARTIAL - server + UI pattern reusable; catalog.json must be regenerated",
+  "missing": "fresh index, semantic search, previews"
+ },
+ {
+  "capability": "Acquisition worker + manifest",
+  "where": "_scripts/download_queue.ps1, queue.txt, _logs/manifest.tsv",
+  "does": "single-instance curl download queue with TSV provenance log",
+  "reuse": "YES pattern for future acquisition (fix D: paths, add license/validation steps)",
+  "missing": "approved-source list, validation, visual analysis hooks"
+ },
+ {
+  "capability": "Offline STT models",
+  "where": "07_AI_Models/whisper-ggml (base/small/large-v3-turbo ggml)",
+  "does": "local speech-to-text incl. word timestamps (with whisper.cpp)",
+  "reuse": "YES for transcription + vocal detection + silence analysis",
+  "missing": "whisper.cpp binary or ggml loader; faster-whisper cannot read ggml bins"
+ },
+ {
+  "capability": "Background removal models",
+  "where": "07_AI_Models/rembg (*.onnx)",
+  "does": "U2-Net/ISNet segmentation",
+  "reuse": "YES for thumbnails/subject cutouts (needs onnxruntime)",
+  "missing": "onnxruntime not installed"
+ },
+ {
+  "capability": "Camera + film LUTs",
+  "where": "08_3D_Assets/LUTs-Camera + LUTs-Film (720 files)",
+  "does": "Sony conversion + film-look .cube LUTs with thumbnails",
+  "reuse": "YES directly for color phase",
+  "missing": "nothing - ready"
+ },
+ {
+  "capability": "Arabic font library",
+  "where": "01_Fonts/03-خطوط/Fonts-Organized (189 Arabic-coverage files: Amiri, Cairo, Tajawal, Almarai, IBM Plex Sans Arabic...)",
+  "does": "caption-ready Arabic typography + Google METADATA.pb license files",
+  "reuse": "YES - audit map (fonts.jsonl) is the registry seed",
+  "missing": "subset/validation pass for broadcast"
+ },
+ {
+  "capability": "SFX arsenal (locked)",
+  "where": "03_SFX + المتكرر 00/ZIP/review (GDC 2019/2024 bundles, ~800 UCS-named wavs, 21.7GB)",
+  "does": "pro cinematic/vehicle/foley/ambience SFX after extraction",
+  "reuse": "YES after one-time local extraction + indexing",
+  "missing": "extraction + per-file metadata (names are already semantic/UCS)"
+ },
+ {
+  "capability": "Music library",
+  "where": "04_Music/Incompetech (1441 CC-BY tracks, 86.9h total audio)",
+  "does": "background music (CC-BY requires attribution)",
+  "reuse": "YES with attribution tracking; quarantine 3+ outro-contaminated files",
+  "missing": "genre/mood tags, attribution registry"
+ },
+ {
+  "capability": "Stock video + NASA",
+  "where": "MH 02-فيديو (376) + 05_VideoAssets (NASA 27, Stock-Footage 4, Blender)",
+  "does": "B-roll/city/tech/business/space footage, 720p-4K + vertical",
+  "reuse": "YES - tech metadata complete (video_meta.jsonl); semantic layer needs frame index",
+  "missing": "per-video semantic tags (10% sampled this audit)"
+ },
+ {
+  "capability": "Icon systems",
+  "where": "02_Icons (lucide/phosphor/tabler, ~29k svg) + svg/ (Material) + meteocons",
+  "does": "UI iconography with semantic filenames",
+  "reuse": "YES as-is (OSS licenses: ISC/MIT/OFL - verify per set)",
+  "missing": "raster preview pipeline (no SVG rasterizer installed)"
+ }
+]

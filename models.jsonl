@@ -1,0 +1,62 @@
+[
+ {
+  "path": "07_AI_Models/whisper-ggml/ggml-base.bin",
+  "bytes": 147951465,
+  "name": "whisper base (ggml)",
+  "framework": "whisper.cpp/ggml",
+  "format": "ggml bin",
+  "task": "speech-to-text",
+  "modality": "audio",
+  "offline": "yes (needs whisper.cpp or ggml-compatible loader; NOT faster-whisper format)",
+  "evidence": "filename+size matches upstream whisper base ggml (~148MB)",
+  "doc": "none in folder"
+ },
+ {
+  "path": "07_AI_Models/whisper-ggml/ggml-small.bin",
+  "bytes": 487601967,
+  "name": "whisper small (ggml)",
+  "framework": "whisper.cpp/ggml",
+  "format": "ggml bin",
+  "task": "speech-to-text",
+  "modality": "audio",
+  "offline": "yes (same caveat)",
+  "evidence": "filename+size matches upstream small ggml (~488MB)",
+  "doc": "none in folder"
+ },
+ {
+  "path": "07_AI_Models/whisper-ggml/ggml-large-v3-turbo-q5_0.bin",
+  "bytes": 573000000,
+  "name": "whisper large-v3-turbo q5_0 (ggml)",
+  "framework": "whisper.cpp/ggml",
+  "format": "ggml quantized bin",
+  "task": "speech-to-text",
+  "modality": "audio",
+  "offline": "yes (same caveat)",
+  "evidence": "filename matches upstream large-v3-turbo q5_0 release",
+  "doc": "none in folder"
+ },
+ {
+  "path": "07_AI_Models/rembg/u2net.onnx",
+  "bytes": 175997641,
+  "name": "U2-Net (rembg)",
+  "framework": "ONNX Runtime",
+  "format": "onnx",
+  "task": "background removal / saliency segmentation",
+  "modality": "image",
+  "offline": "yes (needs onnxruntime, not installed)",
+  "evidence": "filename matches rembg u2net.onnx (~176MB)",
+  "doc": "none in folder"
+ },
+ {
+  "path": "07_AI_Models/rembg/isnet-general-use.onnx",
+  "bytes": 178648008,
+  "name": "ISNet general use (rembg)",
+  "framework": "ONNX Runtime",
+  "format": "onnx",
+  "task": "background removal / dichotomous segmentation",
+  "modality": "image",
+  "offline": "yes (same caveat)",
+  "evidence": "filename matches rembg isnet-general-use.onnx (~179MB)",
+  "doc": "none in folder"
+ }
+]

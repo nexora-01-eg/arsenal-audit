@@ -1,0 +1,82 @@
+{
+ "AI_MODEL": {
+  "files": 5,
+  "bytes": 1564240276,
+  "gb": 1.56
+ },
+ "APP_PROJECT": {
+  "files": 16464,
+  "bytes": 1010531341,
+  "gb": 1.01
+ },
+ "ARCHIVE": {
+  "files": 1560,
+  "bytes": 22793477979,
+  "gb": 22.79
+ },
+ "AUDIO_MUSIC": {
+  "files": 1490,
+  "bytes": 11281551965,
+  "gb": 11.28
+ },
+ "AUDIO_SFX_LOOSE": {
+  "files": 101,
+  "bytes": 24623366,
+  "gb": 0.02
+ },
+ "CODE_CLONE": {
+  "files": 66289,
+  "bytes": 5400992609,
+  "gb": 5.4
+ },
+ "DOC": {
+  "files": 20016,
+  "bytes": 88918730,
+  "gb": 0.09
+ },
+ "FONT": {
+  "files": 4357,
+  "bytes": 615674901,
+  "gb": 0.62
+ },
+ "ICON": {
+  "files": 29035,
+  "bytes": 58872073,
+  "gb": 0.06
+ },
+ "IMAGE": {
+  "files": 11241,
+  "bytes": 3065700463,
+  "gb": 3.07
+ },
+ "LUT": {
+  "files": 329,
+  "bytes": 67419547,
+  "gb": 0.07
+ },
+ "MODEL_3D": {
+  "files": 640,
+  "bytes": 1345311009,
+  "gb": 1.35
+ },
+ "MOTION": {
+  "files": 84,
+  "bytes": 23617470,
+  "gb": 0.02
+ },
+ "QUARANTINE_DUP": {
+  "files": 4228,
+  "bytes": 18921591695,
+  "gb": 18.92
+ },
+ "TEMPLATE_WEB": {
+  "files": 275,
+  "bytes": 23497777,
+  "gb": 0.02
+ },
+ "VIDEO": {
+  "files": 440,
+  "bytes": 14293304523,
+  "gb": 14.29
+ }
+}
